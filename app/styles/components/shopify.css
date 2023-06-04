@@ -1,0 +1,47 @@
+
+.shopify-text p {
+    font-family: Martian Mono;
+    font-size: 14px;
+    line-height: 17px
+}
+
+.shopify-text h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: Martian Mono;
+    font-size: 50px;
+    line-height: 52px
+}
+
+@media (min-width: 800px) {
+
+    .shopify-text h2 {
+        margin-top: 2.5rem
+    }
+}
+
+.shopify-text h3 {
+    font-family: Martian Mono;
+    font-size: 42px;
+    line-height: 46px
+}
+
+.shopify-text img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%
+}
+
+.shopify-text img + em {
+    position: relative;
+    top: -30px;
+    opacity: 0.7
+}
+
+.shopify-text a {
+    text-decoration-line: underline
+}
+
+.blog-header h1, .blog-header span {
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.22)
+  }

@@ -1,0 +1,14 @@
+
+@import 'tailwindcss/components';
+
+@layer components {
+  .button.big {
+    @apply text-mono-16 h-[48px]  tracking-[1.1px]
+  }
+  .button.small {
+    @apply text-mono-14 h-[40px]
+  }
+  .button.primary {
+    @apply bg-almost-black p-2 px-6 rounded-[5px] text-primary-green uppercase font-600
+  }
+}
