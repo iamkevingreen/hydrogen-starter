@@ -1,6 +1,6 @@
-# Hydrogen template: Hello World
+# Superhi Hydrogen v1.
 
-Hydrogen is Shopify’s stack for headless commerce. Hydrogen is designed to dovetail with [Remix](https://remix.run/), Shopify’s full stack web framework. This template contains a **minimal setup** of components, queries and tooling to get started with Hydrogen.
+This is a reduced starter from the Shopify hydrogen demo-store, I found the demo-store to be a little overwhelming and want to pair back some of that experience in order to give you a good starting place that we can build on together. I highly recommend checking out the Hydrogen getting started as well as the demo-store, I'll be explainining similar things just in my own way!
 
 [Check out Hydrogen docs](https://shopify.dev/custom-storefronts/hydrogen)
 [Get familiar with Remix](https://remix.run/docs/en/v1)
@@ -23,17 +23,9 @@ Hydrogen is Shopify’s stack for headless commerce. Hydrogen is designed to dov
 
 - Node.js version 16.14.0 or higher
 
-```bash
-npm create @shopify/hydrogen@latest --template hello-world
-```
-
 Remember to update `.env` with your shop's domain and Storefront API token!
 
-## Building for production
-
-```bash
-npm run build
-```
+Accessing graphQL viewer [https://localhost:3000/graphiql](https://localhost:3000/graphiql)
 
 ## Local development
 
